@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6{
+    font-family: monospace;
+}
+a ,a:hover{
+    text-decoration: none;
+}
+
+/* Global css start here */
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+.col-md-4{
+    width: 33.33%;
+    float: left;
+}
+/* Header section code start */
+
+.header-section{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 20px 0;
+}
+.logo{
+    width: 100%;
+    float: left;
+}
+
+/* banner start */
+
+.banner{
+     width: 100%;
+     float: left;
+     background: url("../img/Strict.jpg") center top no-repeat;
+     background-size: cover;
+     padding: 40px 0px;
+}
+.banner .banner-inner{
+    width: 100%;
+    float: left;
+    padding: 100px 0px 80px;
+    text-align: center;
+}
+.banner .banner-inner h1{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 88px;
+    text-transform: uppercase;
+    color: white;
+}
+.banner-inner .divider{
+    width: 45%;
+    height: 2px;
+    margin: 10px auto;
+    background: #2E86C1 ;
+}
+.banner .banner-inner p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 39px;
+    color: white;
+    margin: 25px 0px 25px;
+}
+.banner .banner-inner .btn-ifo{
+    padding: 15px 30px;
+    background: transparent;
+    border: 2px solid #2E86C1;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 1s;
+    margin: 20px 0px;
+}
+.banner .banner-inner .btn-ifo:hover, .banner .banner-inner .btn-ifo:focus{
+    background: #2E86C1;
+    border: 2px solid #2E86C1;
+    color: white;
+}
+.banner-inner .icons{
+    width: 100%;
+    float: left;
+    padding: 80px 0px 0px;
+}
+
+/* banner end*/
+
+/* simpal css code start here */
+
+.simpal-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: #f6f9f9;
+}
+.simpal-inner{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.simpal-inner h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.simpal-inner p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #a0a0a0;
+}
+
+
+/* simpal css code start here */
+
+/* futer cod start here */
+
+.futer-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+}
+.futer-section .futer-icons{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 0px 30px;
+}
+.futer-icons img{
+    margin-bottom: 20px;
+}
+.futer-icons h4{
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color:#000 ;
+}
+.futer-icons p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #a0a0a0;
+}
+
+/* futer cod start here */
